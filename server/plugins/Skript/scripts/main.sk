@@ -1,0 +1,93 @@
+on block place:
+	add event-block to {blocks::placed::*}
+on block break:
+	#cancel event
+	#loop {blocks::placed::*}:
+	#	if loop-value is not event-block:
+			set event-block to event-block
+
+		
+command /newgame:
+	trigger:
+		heal all players
+		execute console command "effect clear @a"
+		teleport all players to location at 202.5, 98, -43.5 in world "world"
+		loop 500 times:
+			broadcast ""
+		set gamemode of all players to survival
+		set gamemode of all players to survival
+		set {_cnt} to 5
+		loop 5 times:
+			execute console command "title @a title ""%{_cnt}%"""
+			#play sound "note.pling" with volume 100 and pitch 2 at all players for all players
+			subtract 1 from {_cnt}
+			wait 1 second
+		execute console command "title @a title ""Start!"""
+		loop {blocks::placed::*}:
+			set block at location of {blocks::placed::%loop-index%} to air
+		execute console command "spreadplayers 202 -43 50 100 false @a"
+		play sound "random.anvil_land" with volume 100 and pitch 1 at all players for all players
+		set gamemode of all players to survival
+		#loop all players:
+		#	if loop-player is not player:
+		#		set loop-player's inventory to player's inventory
+		execute console command "clear @a"
+		#loop all players:
+		#	if loop-player is not player:
+		#		loop all items in player's inventory:
+		#			add loop-item to loop-player's inventory
+		#set {timer} to arg-1
+		#set {gamestop} to 0
+		
+on explode:
+	cancel event
+	create a safe explosion of force 2 at event-location
+	#loop exploded blocks where [{blocks::placed::*} contains input]:
+		#break block at loop-value's location
+		
+on damage:
+	damage cause is fall:
+		set damage to damage/5
+
+#every 0.1 second:
+#	if {gamestop} is 0:
+#		#execute console command "title @a actionbar ""%{timer}%"""
+#		#send action bar from "{timer}" to all player
+#		subtract 0.1 from {timer}
+#		if {timer} is less than or equal to 0:
+#			execute console command "title @a subtitle ""ALL PLAYERS TELEPORTED TO CENTER"""
+#			execute console command "title @a title ""TIME'S UP"""
+#			execute console command "effect give @a minecraft:glowing infinite 1 true"
+#			play sound "entity.wither.death" with volume 100 and pitch 1 at all players for all players
+#			play sound "entity.wither.spawn" with volume 100 and pitch 1 at all players for all players
+#			set {gamestop} to 1
+	
+on right click with fire charge:
+	cancel event
+	remove 1 of fire charge from player's inventory
+	shoot a fireball from player at speed 5
+
+on death of player:
+	set gamemode of victim to spectator
+	strike lightning effect at victim
+	#play sound "entity.wither.break_block" with volume 100 and pitch 1 at all players for all players
+
+command /gamestop:
+	trigger:
+		set {gamestop} to 1
+		execute console command "title @a title ""Game over!"""
+		broadcast "Set up your inventory and use /newgame to play again!"
+		teleport all players to location at 202.5, 98, -43.5 in world "world"
+		set gamemode of all players to creative
+		execute console command "clear @a"
+		delete {deaths::*}
+		execute console command "kill @e[type=Item]"
+		set {timer} to 999999
+
+command /resetplaced:
+	permission: op
+	trigger:
+		delete {blocks::placed::*}
+		#delete {blocks::removed::*}
+on join:
+	teleport player to location at 202.5, 98, -43.5 in world "world"

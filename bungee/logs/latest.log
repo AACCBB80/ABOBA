@@ -1,0 +1,123 @@
+[14:45:12] [main/INFO]: Using mbed TLS based native cipher.
+[14:45:12] [main/INFO]: Using zlib based native compressor.
+[14:45:12] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[14:45:13] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[14:45:13] [main/INFO]: Epoll is working, utilising it!
+[14:45:13] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[14:45:13] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[14:45:13] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[14:45:13] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[14:45:13] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[14:45:13] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[14:45:13] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:13] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:13] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:13] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:13] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:13] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:13] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:45:13] [main/WARN]: :>  
+[14:45:13] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[14:45:13] [main/WARN]: :>  
+[14:45:13] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[14:45:13] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[14:45:13] [main/WARN]: :>  apart from the versions listed below:
+[14:45:13] [main/WARN]: :>  
+[14:45:13] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[14:45:13] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[14:45:13] [main/WARN]: :>  - FlameCord: 1.1.1
+[14:45:13] [main/WARN]: :>  
+[14:45:13] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[14:45:13] [main/WARN]: :>  
+[14:45:13] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[14:45:13] [main/WARN]: :>  
+[14:45:13] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[14:45:13] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[14:45:16] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[14:45:16] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[14:45:16] [main/WARN]: Forced host server pvp is not defined
+[14:45:16] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:16] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:16] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:16] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:16] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:16] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[14:45:16] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[14:45:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[14:45:16] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[14:45:16] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[14:45:16] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[14:45:17] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/ABOBA/bungee/plugins/EaglercraftXBungee/eagcert/$dl.6a314f63448f669bee13950455200751edda2564.cert
+[14:47:23] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/ABOBA/bungee/server-icon.png
+[14:47:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40160]: Connected via websocket
+[14:47:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40160]: Origin header is https://eaglercraft.com
+[14:47:25] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40160]: Logged in as 'acb'
+[14:47:25] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40160|acb] -> UpstreamBridge has connected
+[14:47:25] [Netty Worker IO Thread #2/INFO]: [acb|/[0:0:0:0:0:0:0:1%0]:40160] <-> ServerConnector [lobby] has connected
+[14:55:58] [Netty Worker IO Thread #2/INFO]: [acb] disconnected with: Proxy lost connection to server.
+[14:55:58] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40160|acb] <-> DownstreamBridge <-> [lobby] has disconnected
+[14:55:58] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40160|acb] -> UpstreamBridge has disconnected
+[15:23:18] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38860]: Connected via websocket
+[15:23:18] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38860]: Origin header is https://eaglercraft.com
+[15:23:18] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38860]: Logged in as 'acb'
+[15:23:18] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38860|acb] -> UpstreamBridge has connected
+[15:23:18] [Netty Worker IO Thread #3/INFO]: [acb|/[0:0:0:0:0:0:0:1%0]:38860] <-> ServerConnector [lobby] has connected
+[15:41:25] [Netty Worker IO Thread #3/INFO]: [acb] disconnected with: Proxy lost connection to server.
+[15:41:25] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38860|acb] <-> DownstreamBridge <-> [lobby] has disconnected
+[15:41:25] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38860|acb] -> UpstreamBridge has disconnected
+[15:41:30] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40122]: Connected via websocket
+[15:41:30] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40122]: Origin header is https://eaglercraft.com
+[15:41:30] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40122]: Logged in as 'acb'
+[15:41:30] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40122|acb] -> UpstreamBridge has connected
+[15:41:30] [Netty Worker IO Thread #0/INFO]: [acb|/[0:0:0:0:0:0:0:1%0]:40122] <-> ServerConnector [lobby] has connected
+[16:03:14] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51794]: Connected via websocket
+[16:03:14] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51794]: Origin header is https://eaglercraft.com
+[16:03:14] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51794]: Logged in as 'SunnyMoth'
+[16:03:14] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:51794|SunnyMoth] -> UpstreamBridge has connected
+[16:03:14] [Netty Worker IO Thread #2/INFO]: [SunnyMoth|/[0:0:0:0:0:0:0:1%0]:51794] <-> ServerConnector [lobby] has connected
+[16:27:47] [Netty Worker IO Thread #2/INFO]: [SunnyMoth] disconnected with: i shidded
+[16:27:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:51794|SunnyMoth] -> UpstreamBridge has disconnected
+[16:27:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:51794|SunnyMoth] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:27:51] [Netty Worker IO Thread #0/INFO]: [acb] disconnected with: Server closed
+[16:27:51] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40122|acb] -> UpstreamBridge has disconnected
+[16:27:51] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40122|acb] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:28:06] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46156]: Connected via websocket
+[16:28:06] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46156]: Origin header is https://eaglercraft.com
+[16:28:07] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46156]: Logged in as 'SunnyMoth'
+[16:28:07] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46156|SunnyMoth] -> UpstreamBridge has connected
+[16:28:07] [Netty Worker IO Thread #0/INFO]: [SunnyMoth|/[0:0:0:0:0:0:0:1%0]:46156] <-> ServerConnector [lobby] has connected
+[16:28:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57270]: Connected via websocket
+[16:28:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57270]: Origin header is https://eaglercraft.com
+[16:28:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57270]: Logged in as 'acb'
+[16:28:13] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57270|acb] -> UpstreamBridge has connected
+[16:28:13] [Netty Worker IO Thread #1/INFO]: [acb|/[0:0:0:0:0:0:0:1%0]:57270] <-> ServerConnector [lobby] has connected
+[16:30:04] [Netty Worker IO Thread #0/INFO]: [SunnyMoth] disconnected with: rejoin
+[16:30:04] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46156|SunnyMoth] -> UpstreamBridge has disconnected
+[16:30:04] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46156|SunnyMoth] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:30:05] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57270|acb] -> UpstreamBridge has disconnected
+[16:30:05] [Netty Worker IO Thread #1/INFO]: [acb] disconnected with: Proxy lost connection to server.
+[16:30:05] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57270|acb] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:30:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46760]: Connected via websocket
+[16:30:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46760]: Origin header is https://eaglercraft.com
+[16:30:10] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46760]: Logged in as 'acb'
+[16:30:10] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46760|acb] -> UpstreamBridge has connected
+[16:30:10] [Netty Worker IO Thread #0/INFO]: [acb|/[0:0:0:0:0:0:0:1%0]:46760] <-> ServerConnector [lobby] has connected
+[16:30:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46762]: Connected via websocket
+[16:30:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46762]: Origin header is https://eaglercraft.com
+[16:30:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46762]: Logged in as 'SunnyMoth'
+[16:30:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:46762|SunnyMoth] -> UpstreamBridge has connected
+[16:30:12] [Netty Worker IO Thread #1/INFO]: [SunnyMoth|/[0:0:0:0:0:0:0:1%0]:46762] <-> ServerConnector [lobby] has connected
+[16:36:26] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:46762|SunnyMoth] -> UpstreamBridge has disconnected
+[16:36:26] [Netty Worker IO Thread #1/INFO]: [SunnyMoth] disconnected with: Proxy lost connection to server.
+[16:36:26] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:46762|SunnyMoth] <-> DownstreamBridge <-> [lobby] has disconnected
+[16:37:09] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33718]: Connected via websocket
+[16:37:09] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33718]: Origin header is https://eaglercraft.com
+[16:37:09] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33718]: Logged in as 'SunnyMoth'
+[16:37:09] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33718|SunnyMoth] -> UpstreamBridge has connected
+[16:37:09] [Netty Worker IO Thread #3/INFO]: [SunnyMoth|/[0:0:0:0:0:0:0:1%0]:33718] <-> ServerConnector [lobby] has connected
+[17:00:43] [Netty Worker IO Thread #3/INFO]: [SunnyMoth] disconnected with: aboba
+[17:00:43] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33718|SunnyMoth] -> UpstreamBridge has disconnected
+[17:00:43] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:33718|SunnyMoth] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:00:46] [Netty Worker IO Thread #0/INFO]: [acb] disconnected with: Server closed
+[17:00:46] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46760|acb] -> UpstreamBridge has disconnected
+[17:00:46] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46760|acb] <-> DownstreamBridge <-> [lobby] has disconnected

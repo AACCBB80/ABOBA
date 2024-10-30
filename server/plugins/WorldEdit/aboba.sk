@@ -1,0 +1,6 @@
+on rightclick with iron horse armor:
+     shoot arrow from player at speed 100
+on chat:
+     if player is not "epicAboba2024":
+          replace "e" with "(aboba)" in the message
+          replace "e" with "(aboba)" in the message
